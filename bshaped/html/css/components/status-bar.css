@@ -1,0 +1,29 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  /* justify-content: space-between; 
+    each content doesn't contain equal spaces 
+    so rather use css hack*/
+  justify-content: space-between;
+  padding: 15px 3px;
+  font-size: 20px;
+}
+
+.login {
+  display: flex;
+  margin-right: 50px;
+}
+
+.login input {
+  background-color: #fff;
+  border-radius: 12px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.login input:hover {
+  background-color: orchid;
+  color: #fff;
+}

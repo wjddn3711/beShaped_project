@@ -1,0 +1,9 @@
+.tabContents input {
+  border: none;
+}
+
+#calorie-form input {
+  border: none;
+  border-bottom: 1px solid orchid;
+  border-left: 1px solid orchid;
+}

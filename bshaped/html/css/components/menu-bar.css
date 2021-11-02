@@ -1,0 +1,94 @@
+nav {
+  font-family: "Jua", sans-serif;
+}
+
+.menu-bar {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.icon-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* padding-bottom: 25px; */
+}
+
+.icon-row input[type="radio"] {
+  width: 33%;
+  display: none;
+  /* 라디오 버튼 감추기 */
+}
+
+.icon-row label {
+  display: inline-block;
+  width: 33%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.icon-row input:checked + label {
+  color: orchid;
+  border: 1px solid #ddd;
+  background-color: #eee;
+}
+
+.icon-row label:hover {
+  color: darkgrey;
+  cursor: pointer;
+}
+
+.icon-row__icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.icon-row__icon span {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#tab_1:checked ~ #calender,
+#tab_2:checked ~ #proper-calories,
+#tab_3:checked ~ #intake {
+  display: block;
+  width: 1000px;
+  height: 100%;
+  text-align: center;
+}
+
+.tabContents {
+  display: none;
+  font-size: 18px;
+}
+
+.tabContents h2 {
+  margin-bottom: 100px;
+}
+
+#button {
+  font-size: 14px;
+  padding: 10px 10px;
+  border-radius: 12px;
+  color: white;
+  background-color: rgb(226, 176, 225);
+  margin-left: 30px;
+}
+
+#button:hover {
+  background-color: white;
+  color: black;
+}

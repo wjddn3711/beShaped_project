@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span id="clock"></span>
+        </div>
+        <div class="login">
+            <a href="login.html"><input type="button" value="Log In"></a>
+        </div>
+    </div>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="index.html">
+                <h1>Be Shaped</h1></a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="#"> 내 페이지<span> ⌵</span></a>
+                        <ul>
+                            <li><a href="mypage.html">차트보기</a></li>
+                            <li><a href="event.html">일정보기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="friends.html"> 경쟁하기 </a></li>
+        
+                    <li><a href="#"> 후기 <span>⌵</span></a>
+                        <ul>
+                            <li><a href="competitor.html">경쟁자 후기</a></li>
+                            <li><a href="dietfood.html">다이어트 식품 후기</a></li>
+                            <li><a href="routines.html">운동 루틴 후기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">SNS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slideShow">
+            <div class="slide-texts">
+                <h1 id="slide-text"></h1>
+            </div>
+            <div id="btnContainer">
+                <button class="btn-left">◀︎</button>
+                <button class="btn-right">▶︎</button>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="tabMenu">
+                <input type="radio" name="tabs" id="tab1" checked> 
+                <label for="tab1">공지사항</label>
+                <input type="radio" name="tabs" id="tab2" > 
+                <label for="tab2">갤러리</label>
+
+                <div id="notice" class="tabContent">
+                    <button id="event1">사무실 이전</button>
+                    <button id="event2">무료 PT 체험 초대</button>
+                    <button id="event3">프로틴 체험단 모집</button>
+                    <div class="hidden notice-box" id="ev1">
+                        <img src="img/office.jpg" alt="사무실사진">
+                        <span>대구광역시 수성구 상동 782-3 번지로 사무실이 이전 되었습니다.</span>
+                    </div>
+                    <div class="hidden notice-box" id="ev2">
+                        <img src="img/gym.jpg" alt="헬스장사진">
+                        <span>Best Gym에서 열정 넘치시는 PT 체험단을 모집합니다!</span>
+                    </div>
+                    <div class="hidden notice-box" id="ev3">
+                        <img src="img/protein.jpg" alt="프로틴사진">
+                        <span>유기농 키토에서 새로운 프로틴이 출시되었습니다.</span>
+                    </div>
+                </div>
+                <div id="gallery" class="tabContent">
+                </div>
+            </div>
+            <div id="links">
+                <div id="links-header">Best Members</div>
+                <ul>
+                    <li><a href="#"><span id="quick-icon1"><img src="img/man1.jpg" alt="이재학"></span><p>이재학</p></a></li>
+                    <li><a href="#"><span id="quick-icon2"><img src="img/man2.jpg" alt="황규호"></span><p>황규호</p></a></li>
+                    <li><a href="#"><span id="quick-icon3"><img src="img/man3.jpg" alt="한유리"></span><p>한유리</p></a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <footer>
+        <div id="bottomMenu">
+            <ul>
+                <li><a href="#">소개</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">약관</a></li>
+                <li><a href="#">사이트맵</a></li>
+            </ul>
+        </div>
+
+        <div id="sns">
+            <ul>
+                <li><a href="https://www.facebook.com/"><img src="img/sns-1.png" ></a></li>
+                <li><a href="https://www.youtube.com/"><img src="img/sns-2.png" ></a></li>
+                <li><a href="https://www.instagram.com"><img src="img/sns-3.png" ></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/clock.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/slideshow.js"></script>i
+
+
+</body>
+</html>

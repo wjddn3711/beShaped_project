@@ -1,0 +1,35 @@
+.board {
+  margin-top: 40px;
+  width: 100%;
+  height: 100vh;
+  font-family: "Jua", sans-serif;
+}
+
+.board-title {
+  margin: 0;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 40px;
+}
+
+.notice-text {
+  background-color: #f9f9fa;
+}
+
+.notice-text ul {
+  line-height: 170%;
+}
+
+.notice-board {
+  margin-left: var(--horizontal-space);
+  margin-right: var(--horizontal-space);
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: tomato;
+}

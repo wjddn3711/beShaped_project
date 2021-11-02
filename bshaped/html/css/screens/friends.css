@@ -1,0 +1,117 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+}
+
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: var(--grey);
+}
+
+.user-component__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 28px;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-component__subtitle {
+  margin-top: 10px;
+  font-size: 11px;
+  display: flex;
+  color: var(--grey);
+}
+
+.user-component__avatar--xl {
+  width: 70px;
+  height: 70px;
+}
+
+.user-component__avatar--sm {
+  width: 40px;
+  height: 40px;
+  border-radius: 17px;
+}
+
+.user-component__title--not-bold {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.user-component__time {
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.user-component__column:last-child i {
+  color: black;
+}
+
+.user-component__subtitle div {
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  width: 8px;
+  height: 8px;
+  border: 1px solid tomato;
+  border-radius: 50%;
+}
+
+#friends-display-link {
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 10px 0px;
+  font-size: 16px;
+  /* margin-bottom: 10px; */
+}
+
+#friends-display-link span {
+  margin-right: 8px;
+}
+
+#friends-display-link i {
+  color: var(--grey);
+}
+
+.friends-screen__channel {
+  margin: 5px 0px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  color: var(--grey);
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-component__column input {
+  font-size: 14px;
+  padding: 10px 14px;
+  background-color: rgb(238, 180, 236);
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+  border-radius: 0.1px dashed orchid;
+}
+
+.user-component__column input:hover {
+  background-color: rgb(228, 92, 228);
+}
