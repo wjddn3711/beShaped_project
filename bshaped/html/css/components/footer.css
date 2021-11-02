@@ -1,5 +1,5 @@
 footer {
-  height: 110px;
+  height: 60px;
   background-color: #f9f9fa;
   bottom: 0;
   position: fixed;
@@ -9,12 +9,18 @@ footer {
   border-top: 2px solid #ddd;
 }
 
-#bottomMenu {
+.bottom {
   width: 100%;
-  height: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-#bottomMenu ul li {
+#bottomMenu {
+  width: 100%;
+}
+
+#bottomMenu a {
   float: left;
   padding-right: 10px;
   border-right: 1px solid #ddd;
@@ -22,7 +28,7 @@ footer {
   margin-right: 5px;
 }
 
-#sns ul li {
-  float: right;
-  padding: 5px;
+#sns {
+  display: flex;
+  flex-direction: row;
 }
