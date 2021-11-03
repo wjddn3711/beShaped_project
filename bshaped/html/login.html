@@ -48,12 +48,12 @@
         </header>
     
     <!--form tag would not be used much so didn't claim as class, instead claimed as id-->
-        <form action="index.html" method="get" id="login--form">
+        <form id="login--form">
             <!-- id 와 pwd 를 15자로 제한하고 항상 입력하도록 한다 -->
-            <input required maxlength="15" name="username" type="text" placeholder="Email or phone number">
-            <input required maxlength="15" name="password" type="password" placeholder="Password">
-            <input type="submit" value="Log In">
-            <input type="submit" value="Sign Up">
+            <input id="loginId" required maxlength="15" name="username" type="text" placeholder="Email or phone number">
+            <input id="loginPwd" required maxlength="15" name="password" type="password" placeholder="Password">
+            <input id="login-btn" type="submit" value="Log In">
+            <input id="signUp-btn" type="submit" value="Sign Up">
             <a href="" title="계정 / 비밀번호 찾기">Find B ✂︎ Shaped Account or Password</a>
         </form>
     </div>
@@ -75,6 +75,7 @@
         </div>
     </footer>
     <script src="js/clock.js"></script>
+    <script scr="js/login.js"></script>
     <script src="https://kit.fontawesome.com/0562c9a477.js" crossorigin="anonymous"></script>
 </table>
 </body>

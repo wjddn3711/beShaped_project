@@ -62,23 +62,27 @@
                 <input type="radio" name="tabs" id="tab_3" > 
                 <label for="tab_3">
                     <div class="icon-row__icon">
-                        <i class="fas fa-cart-plus"></i>
-                        <span>오늘의 섭취기록</span>
+                        <i class="fas fa-user-cog"></i>
+                        <span>내 정보 설정</span>
                     </div>
                 </label>
                 <br>
 
                 <!-- todo List 일정관리, 섭취량 체크 -->
-                <div id="calender" class="tabContents">
+                <div id="calender" class="tabContents todo-container">
                     <h2>새로운 일정을 추가합니다</h2>
                     <form id="todo-form">
                         <input id="event-list" type="text" placeholder="일정" required>
                         <input id="event-cal" type="text" placeholder="예상 섭취 칼로리" required>
-                        <input type="submit">
+                        <input type="submit" value="✔︎">
                     </form>
+                    <div id="list-menu">
+                        <span id="lm1">일정</span>
+                        <span id="lm2">칼로리</span>
+                    </div>
                     <ul id="todo-list"></ul>     
                 </div>
-
+                
                 <!-- 권장 칼로리 체크 -->
                 <div id="proper-calories" class="tabContents">
                     <h2>나의 권장 칼로리</h2>
@@ -110,28 +114,18 @@
                 </div>
 
                 <!-- 오늘의 섭취량 기록 -->
-                <div id="intake" class="tabContents">
-                    <h2>오늘의 섭취량</h2>
-                    <ul>
-                        <form action="http://localhost/regist.jsp" method="post">
-                            <p>
-                                <label>칼로리<input type="text" name="calorie" id="calorie"></label>
-                                <label>음식<input type="text" name="food" id="food"></label>
-                            </p>
-                            <p>
-                                <label>칼로리<input type="text" name="calorie" id="calorie"></label>
-                                <label>음식<input type="text" name="food" id="food"></label>
-                            </p>
-                            <p>
-                                <label>칼로리<input type="text" name="calorie" id="calorie"></label>
-                                <label>음식<input type="text" name="food" id="food"></label>
-                            </p>
-                            <br><br>
-                            <input type="reset" value="다시쓰기" id="button"> 
-                            <input type="submit" value="확인" id="button"> 
-                            <br><br><br><br><br><br>
-                        </form>     
-                    </ul>
+                <div id="intake" class="tabContents todo-container">
+                    <h2>내 정보 설정</h2>
+                    <form id="todo-form">
+                        <input id="event-list" type="text" placeholder="음식" required>
+                        <input id="event-cal" type="text" placeholder="칼로리" required>
+                        <input type="submit" value="⏎">
+                    </form>
+                    <div id="list-menu">
+                        <span id="lm1">음식</span>
+                        <span id="lm2">칼로리</span>
+                    </div>
+                    <ul id="todo-list"></ul>    
                 </div> 
 
             </div>   

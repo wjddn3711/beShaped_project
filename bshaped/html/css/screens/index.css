@@ -111,15 +111,6 @@
   color: white;
 }
 
-#event1:hover ~ #ev1,
-#event2:hover ~ #ev2,
-#event3:hover ~ #ev3 {
-  display: flex;
-  position: relative;
-  top: 30px;
-  opacity: 0.9;
-}
-
 #notice img {
   border-radius: 50%;
   width: 100px;
