@@ -8,6 +8,32 @@
   border-left: 1px solid orchid;
 }
 
+#userinfo-form p input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid orchid;
+  border-left: 1px solid orchid;
+}
+
+#userinfo-form input[type="submit"] {
+  color: black;
+  font-size: x-large;
+  float: right;
+  background-color: white;
+  border: none;
+}
+
+#userinfo-form h4 {
+  text-align: start;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+#userinfo-form label {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 #event1:hover ~ #ev1,
 #event2:hover ~ #ev2,
 #event3:hover ~ #ev3 {
@@ -21,7 +47,7 @@
   border: none;
   border-bottom: 1px solid orchid;
   border-left: 1px solid orchid;
-  border-radius: 10px 10px 0 10px;
+  border-radius: 0 10px 0 10px;
   font-size: 15px;
 }
 
