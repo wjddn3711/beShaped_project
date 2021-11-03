@@ -22,9 +22,10 @@
   margin-top: 10px;
   margin-bottom: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 30px;
   font-weight: 500;
-  color: rgba(0, 0, 0, 0.4);
+  color: white;
   border-bottom: 1mm ridge rgba(170, 50, 220, 0.6);
+  text-shadow: 2px 2px 4px rgba(170, 50, 220, 0.6);
 }
